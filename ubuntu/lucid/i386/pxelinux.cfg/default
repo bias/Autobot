@@ -1,0 +1,3 @@
+LABEL server
+kernel ubuntu-installer/i386/linux
+append ramdisk_size=14984 locale=en_US console-setup/layoutcode=en_US netcfg/wireless_wep= netcfg/choose_interface=eth0 netcfg/get_hostname= url=http://http-preseed/preseed.cfg vga=normal initrd=ubuntu-installer/i386/initrd.gz --
